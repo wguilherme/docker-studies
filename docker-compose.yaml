@@ -1,0 +1,9 @@
+# manifesto que gerencia os containers
+
+version: '3'
+
+services:
+  nginx:
+    image: nginx
+    ports:
+      - 8080:80
